@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<package>
+    <name>Tastehit_ProductRecommendation</name>
+    <version>0.1.2</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL 3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>TasteHit is a suite of personalization tools which adapt your Magento shop to each unique visitor's behavior.</summary>
+    <description>&lt;h2&gt;What is TasteHit?&lt;/h2&gt;&#xD;
+Build an Amazon-like personalized browsing experience for every single visitor. TasteHit analyzes the behaviors of your visitors and displays the most relevant products from the shop to each unique visitor, in real-time.&#xD;
+&lt;br&gt;&lt;br&gt;&#xD;
+&lt;h2&gt;How does it work?&lt;/h2&gt;&#xD;
+TasteHit collects anonymous data on your visitors (i.e. who clicked on what and when). We apply predictive algorithms on this data with the goal of predicting which product each visitor is likely to buy. We take into account the behavior of the user, the characteristics of your products (such as popularitya and price) and the specific rules you want to put in place.&#xD;
+&lt;br&gt;&#xD;
+By showing to visitors what is relevant to them, we help them discover products they will like. This increases your conversion rate and makes your visitors come back more often.&#xD;
+&lt;br&gt;&lt;br&gt;&#xD;
+&lt;h2&gt;Features&lt;/h2&gt;&#xD;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;Increase your sales&lt;/b&gt;&lt;br&gt;&#xD;
+Using predictive algorithms, TasteHit is completely autonomous in finding the right product for the right visitor at the right time. We do that millions of times per day, at every page load, to increase your sales and make sure each visitor sees products he is likely to buy. &#xD;
+&#xD;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;Easy to install&lt;/b&gt;&lt;br&gt;&#xD;
+TasteHit is installed in one click. Just install our free Magento 1 or 2 extension, and you are ready to go. &#xD;
+&#xD;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;Learning algorithms&lt;/b&gt;&lt;br&gt;&#xD;
+The intelligence behind TasteHit is based on years of research in machine learning, the science of finding patterns in data automatically. We provide you with different algorithms which take into account different characteristics of products and users (popularity and sales performance of products, user browsing history, stock information, novelty).&#xD;
+&#xD;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;Stay in control&lt;/b&gt;&lt;br&gt;&#xD;
+We offer you an easy to use graphical configurator which allows you to tune the graphics, algorithms and filters of the product widgets you insert on your web pages and in your emails. All changes you make can be instantly applied in production. No technical expertise required.&#xD;
+&lt;br&gt;&#xD;
+The algorithms we provide can be tuned in different ways and you have complete control over what types of products you want TasteHit to recommend. You can easily set up filters which exclude certain categories of products.&#xD;
+&#xD;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;Performance tracking and insights&lt;/b&gt;&lt;br&gt;&#xD;
+TasteHit's dashboard gives you a detailed monitoring of the solution's performance. Track the performance of individual widgets, monitor the impact of your configuration changes and make sure you get what is best for your shop. Through this dashboard, we also give you access to useful insights on products (what products are being visited before/after a specific product, what products are bought together, what recommendations are the most effective/the most displayed). Everything is there to help you make your shop more interesting for your visitors.&#xD;
+&#xD;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;Web and email&lt;/b&gt;&lt;br&gt;&#xD;
+TasteHit widgets can be inserted in both web pages and emails. We offer the possibility to add personalized widgets to transactional emails as well as newsletters you may generate with external tools.&#xD;
+&#xD;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;Developer friendly API&lt;/b&gt;&lt;br&gt;&#xD;
+Do you want a specific feature? TasteHit provides a public API which can be used to create new personalized experiences: a specific widget, a new fully personalized page, a game app based on products from your shop.&#xD;
+&#xD;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;Friendly pricing&lt;/b&gt;&lt;br&gt;&#xD;
+Our pricing is based on the number of monthly visitors your site receives. Sites that have fewer than 10,000 visitors can use TasteHit for free. We don't take a commission on your sales through TasteHit, we are just happy to help you sell more. You don't have to worry about the features and the number of widgets you use: there are no restrictions on how you use TasteHit on your Magento shop.&#xD;
+</description>
+    <notes>Stable version of the Magento extension for product recommendation from Tastehit</notes>
+    <authors><author><name>Christopher Burger</name><user>TasteHit</user><email>contact@tastehit.com</email></author></authors>
+    <date>2016-12-03</date>
+    <time>06:31:04</time>
+    <contents><target name="magecommunity"><dir name="Tastehit"><dir name="ProductRecommendation"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Button"><file name="Export.php" hash="e473c372f60dc64b2f024fc25eef6ec5"/></dir><file name="Info.php" hash="ad45bd1500d2a308fa79bd11833bb09f"/></dir></dir></dir><dir name="Catalog"><file name="Category.php" hash="6aea54c83bbbc0579542448bf7bbe905"/><file name="Product.php" hash="44396420129e22cb25aadd7a73ba1d7a"/></dir><file name="Home.php" hash="ea0ec3c659999324a7f722efb829fdc7"/><file name="Js.php" hash="8e76119ddf07590f928cf1d75282aa3c"/></dir><dir name="Helper"><file name="Data.php" hash="add132e7eb15280787e0665155fd6e5a"/></dir><dir name="Model"><file name="Observer.php" hash="0d5947fa3112e53621b9e3843f012445"/><dir name="System"><dir name="Config"><dir name="Backend"><file name="Cron.php" hash="2c9a05a9e306ba5e369a0524ba19cceb"/></dir><dir name="Source"><dir name="Placement"><file name="Category.php" hash="fe3002902b189c5c6fbac3539de519e0"/><file name="Home.php" hash="856307bb4aa8649562138642b4cd4fcb"/><file name="Products.php" hash="8b32ddbfb225882707f62a87cf7f636c"/></dir></dir></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="TastehitController.php" hash="96f37f7bf13b4a6ec6596b2cdf983163"/></dir></dir><dir name="data"><dir name="tastehit_productrecommendation_setup"><file name="data-install-0.1.0.php" hash="2b5117a4df5ffdc17559bd2a28c6bd0d"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="7f05f7dece08d1a9848134f252d4234b"/><file name="config.xml" hash="5f4d3ffb9bc14f6521f2c5e89198c9ce"/><file name="system.xml" hash="08b020b680b5dd7b064e305abf8312ff"/></dir><dir name="sql"><dir name="tastehit_productrecommendation_setup"><file name="install-0.1.0.php" hash="3a5886eb912fb7e924daee6363e96f17"/><file name="upgrade-0.1.0-0.1.1.php" hash="db8ae3210ea836e1f1d6056975d7587b"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Tastehit_ProductRecommendation.xml" hash="df3f921875fdd5e84193eab39abc24c0"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="tastehit"><dir name="system"><dir name="config"><file name="export-button.phtml" hash="712516c97b48d8cbfe9ade5c3af20091"/></dir></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="tastehit_productrecommendation.xml" hash="78da1a0f77cff28305ae006bf97618c6"/></dir><dir name="template"><dir name="tastehit"><file name="js.phtml" hash="8386a68481e69f40adb9a40db55d4b43"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>7.0.8</max></php></required></dependencies>
+</package>
