@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Tastehit_ProductRecommendation",
+    "name": "OpenMageModuleFostering\/Tastehit_ProductRecommendation",
     "type": "magento-module",
     "license": "OSL-3.0",
     "homepage": "",
     "description": "TasteHit is a suite of personalization tools which adapt your Magento shop to each unique visitor's behavior.",
     "authors": [
-    {
-        "name": "Christopher Burger",
-        "email": "contact@tastehit.com"
-    }
-],
+        {
+            "name": "Christopher Burger",
+            "email": "contact@tastehit.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
