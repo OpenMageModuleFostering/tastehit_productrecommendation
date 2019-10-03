@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 TasteHit is a suite of personalization tools which adapt your Magento shop to each unique visitor's behavior.
